@@ -1,2 +1,1 @@
 # Cube
-Game puzzle
