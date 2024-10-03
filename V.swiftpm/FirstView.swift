@@ -9,7 +9,12 @@ import SwiftUI
 
 struct FirstView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Rectangle()
+                .fill(Color.gray)
+            Text("1")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
